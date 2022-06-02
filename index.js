@@ -133,7 +133,7 @@ async function parseTweets() {
 
 async function main() {
     console.log("Started")
-    parseTweets()
+    const subscribe = await FriggTweets.Subscribe(parseTweets);
 }
 
 main()
