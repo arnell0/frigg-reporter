@@ -1,4 +1,5 @@
 # frigg-reporter
+## Posting disabled!
 Twitter bot to automatically publish results to twitter when new tweets are added to databse.
 
 Runs on databse inserts.

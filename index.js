@@ -109,7 +109,7 @@ async function parseTweets() {
     const second = `Jag är Frigg, ett automatiserat program som övervakar opinionen om partiledarna här på Twitter.\nFör frågor eller förslag, kontakta mig gärna på friggai@protonmail.me eller via Twitter.\nJag skapades av @arnell00.`
     const last = 'Min källkod är open-source och hittas i slutet av dessa länkar.\nTwitterbot: https://github.com/arnell0/frigg-reporter\nDatainsamling: https://github.com/arnell0/frigg-pipeline \n@arnell00'
     
-    console.log("Posting base tweet")
+    /* console.log("Posting base tweet")
     const baseTweet = await Tweets.Post(first)
 
     console.log("Posting second tweet")
@@ -126,7 +126,7 @@ async function parseTweets() {
     setTimeout(async () => {
         console.log("Posting last tweet")
         await Tweets.Reply(baseTweet, last)
-    }, ((texts.length - 1) * 1200))
+    }, ((texts.length - 1) * 1200)) */
 
     console.log("Done!")
 }
